@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      script-src 'self' 'sha256-JSkwA4IYNwPqZx/O0udmOrWB/2Zv5QcWE8qW4Ugwd48=';
+      object-src 'none';
+      base-uri 'self';
+    "
+  >
+
+  <!-- This is a sentinel value detected in code, and should not be changed -->
+  <title>file:///home/oai/redirect.html</title>
+  <script id="redirect-script">
+    // https://go/docs-link/chrome-etc-skel
+    const t = new URLSearchParams(location.search).get("target");
+    if (t) setTimeout(() => location.replace(t), 0);
+  </script>
+</head>
+<body>
+  The page contents are still loading. Open the page again to see them.
+</body>
+</html>
+

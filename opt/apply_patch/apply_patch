@@ -1,0 +1,2 @@
+#!/bin/bash
+python /tmp/repo_support/combined_apply_patch_cli.py "$@"

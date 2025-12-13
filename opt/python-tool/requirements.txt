@@ -1,0 +1,10 @@
+# Below are known working dependencies of jupyter-client 8.6.0, so we pin them
+jupyter-client==8.6.1
+jupyter-core==5.5.1
+jupyter-server==2.14.0
+jupyterlab==4.1.8
+jupyterlab-pygments==0.3.0
+jupyterlab-server==2.27.1
+
+# caas_jupyer_server dependencies
+fastapi[all]==0.111.0
