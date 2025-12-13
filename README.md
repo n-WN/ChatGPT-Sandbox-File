@@ -8,6 +8,8 @@
 
 > OpenAI 被抓到在产品内部使用 Skill 文件，这代表着Claude 的 Skills 已经成为事实标准。
 
+[点击跳转到 Skills](home/oai/skills)
+
 ## Prompt
 
 分析整个 sandbox，有哪些常规linux或者说linux默认没有的文件，操作工具打包
