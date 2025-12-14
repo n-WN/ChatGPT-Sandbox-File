@@ -2,17 +2,28 @@
 
 ## Use
 
+Package the files within the ChatGPT Sandbox to see what new features are available and how the old features are implemented.
+
 打包 ChatGPT Sandbox 内的文件，看看又有什么新功能，以及老功能是如何实现的
 
-灵感来自: https://x.com/gasikaramada/status/1999836738009641138
+灵感来自: 
+
+Inspiration from:
+- https://x.com/elias_judin/status/1999479682190966852?s=20
+- https://x.com/gasikaramada/status/1999836738009641138
 
 > OpenAI 被抓到在产品内部使用 Skill 文件，这代表着Claude 的 Skills 已经成为事实标准。
 
-[点击跳转到 Skills](home/oai/skills)
+[Goto Skills](home/oai/skills)
 
 ## Prompt
 
+Analyze the entire sandbox to identify which files are present in standard Linux or not by default in Linux, and which operation tools are packaged within it.
+
 分析整个 sandbox，有哪些常规linux或者说linux默认没有的文件，操作工具打包
+
+<img width="1395" height="883" alt="截屏2025-12-14 22 51 44" src="https://github.com/user-attachments/assets/0ecac26b-4a13-4532-93d8-2070766f5f9e" />
+
 
 ## Code
 
